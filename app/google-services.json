@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "164794820467",
+    "firebase_url": "https://geolocalisationsafi.firebaseio.com",
+    "project_id": "geolocalisationsafi",
+    "storage_bucket": "geolocalisationsafi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164794820467:android:e89a0c407b9a1ca7",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.geolocalisationsafi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164794820467-ig0ta75ruvlsjpoupnrjeo9g67ssoggv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lenovo.geolocalisationsafi",
+            "certificate_hash": "b983bd8942610a0dba1fa9c9d38c424f444f8df7"
+          }
+        },
+        {
+          "client_id": "164794820467-2lb4upcs2b10t0a6ouofhbm72eik6714.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBD5QwzYhsLdox6Ys2LyWOrEhL15oo7ieE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164794820467-2lb4upcs2b10t0a6ouofhbm72eik6714.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164794820467:android:3d4ea5640e682457",
+        "android_client_info": {
+          "package_name": "com.version.geolocalisationsafi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164794820467-k0lprs021mgs0kk9on7j6gn2afdbgopd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.version.geolocalisationsafi",
+            "certificate_hash": "c6ff0e2f468ac63ddb3a8e86705a081f79fb6aa4"
+          }
+        },
+        {
+          "client_id": "164794820467-2lb4upcs2b10t0a6ouofhbm72eik6714.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBD5QwzYhsLdox6Ys2LyWOrEhL15oo7ieE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164794820467-2lb4upcs2b10t0a6ouofhbm72eik6714.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

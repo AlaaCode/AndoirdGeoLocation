@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsLieu">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearlayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/picture1"
+                android:layout_width="match_parent"
+                android:layout_height="184dp"
+                android:layout_margin="0dp"
+                android:layout_marginTop="20dp"
+                android:src="@android:drawable/ic_menu_report_image" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/home">
+
+                <ImageView
+                    android:id="@+id/ImageView_homeicon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:padding="8dp"
+                    android:src="@drawable/home" />
+
+                <TextView
+                    android:id="@+id/web"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/ImageView_homeicon"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_toRightOf="@+id/ImageView_homeicon"
+                    android:fontFamily="serif"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/web">
+
+                <ImageView
+                    android:id="@+id/ImageView_phoneicon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:padding="8dp"
+                    android:src="@drawable/phone" />
+
+                <TextView
+                    android:id="@+id/phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/ImageView_phoneicon"
+                    android:layout_alignParentTop="true"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@+id/ImageView_phoneicon"
+                    android:fontFamily="serif"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/phone">
+
+                <ImageView
+                    android:id="@+id/ImageView_addressicon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:padding="8dp"
+                    android:src="@drawable/address" />
+
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/ImageView_addressicon"
+                    android:layout_alignParentTop="true"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@+id/ImageView_addressicon"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+
+
+                    />
+            </RelativeLayout>
+
+            <RatingBar
+                android:id="@+id/etoils"
+                style="@style/CustomRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:isIndicator="true"
+                android:numStars="5" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Poster votre avis"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linearlayout1">
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="166dp"></ListView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
